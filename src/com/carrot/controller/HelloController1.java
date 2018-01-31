@@ -13,7 +13,7 @@ import org.springframework.web.servlet.ModelAndView;
 public class HelloController1{
 
     @RequestMapping(value = "/hello1")
-    public ModelAndView hello(){
+    public ModelAndView hello1(){
         ModelAndView view = new ModelAndView();
         view.addObject("message","Hello,springMVC!");
         view.setViewName("WEB-INF/content/welcome.jsp");
